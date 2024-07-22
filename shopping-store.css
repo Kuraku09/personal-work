@@ -1,0 +1,144 @@
+html {
+    --try-bg-color-1: rgb(214, 214, 214);
+}
+
+body {
+    margin: 0;
+    height: 3000px;
+    overflow-x: hidden;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+.my-lax-box {
+    background-color: var(--try-bg-color-1);
+    width: 200px;
+    height: 200px;
+    /* margin-top: 1000px; */
+    background-image: url(./Img/captaindog-big-logo.jpg);
+    background-size: cover;
+    font-size: 100px;
+    font-weight: bold;
+    /* color:red; */
+    clip-path: polygon(100% 100%, 100% 50%, 0 0, 0 50%);
+    position: absolute;
+    z-index: 500;
+}
+
+.my-lax-box-2 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    /* margin-top: 1000px; */
+    background-image: url(./Img/captaindog-big-logo.jpg);
+    background-size: cover;
+    font-size: 100px;
+    font-weight: bold;
+    /* color:red; */
+    /* clip-path: polygon(50% 25%, 100% 0, 0 0, 50% 25%); */
+    clip-path: polygon(100% 50%, 100% 0, 0 50%, 0% 100%);
+    position: absolute;
+    z-index: 20;
+}
+.my-lax-box-3 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    /* margin-top: 1000px; */
+    background-image: url(./Img/captaindog-big-logo.jpg);
+    background-size: cover;
+    font-size: 100px;
+    font-weight: bold;
+    /* color:red; */
+    clip-path: polygon(50% 25%, 100% 0, 0 0, 50% 25%);
+    position: absolute;
+    z-index: 20;
+}
+.my-lax-box-4 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    /* margin-top: 1000px; */
+    background-image: url(./Img/captaindog-big-logo.jpg);
+    background-size: cover;
+    font-size: 100px;
+    font-weight: bold;
+    /* color:red; */
+    clip-path: polygon(0 100%, 100% 100%, 50% 75%, 50% 75%);
+    position: absolute;
+    z-index: 20;
+}
+
+
+/* clip-path: polygon(0 100%, 100% 100%, 50% 75%, 50% 75%); */
+.my-div-2 {
+    background-color: red;
+}
+
+#my-dropdown-me {
+    left: -100px;
+}
+
+.captaindog-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.my-footer-nav {
+    background-color: var(--try-bg-color-1);
+}
+
+
+
+.name {
+    color: blue;
+    background-color: yellow;
+}
+
+.my-circle {
+    width: 150px;
+    height: 150px;
+}
+
+.img {
+    border-radius: 50%;
+}
+
+.my-btn {
+    margin-left: 140px;
+    color: blue;
+}
+
+.my-map {
+    filter: grayscale(100%);
+}
+
+.my-map-feedback {
+    width: 30%;
+    height: 80%;
+    top: 30px;
+    right: 0;
+}
+
+@media (max-width:768px) {
+    .my-map-feedback {
+        width: 70%;
+        height: 75%;
+        top: 30px;
+        right: 10%;
+    }
+}
+
+@media (max-width:576px) {
+    .my-map-feedback {
+        width: 60%;
+        height: 83%;
+        top: 50px;
+        right: 10%;
+    }
+}
