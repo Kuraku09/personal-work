@@ -1,0 +1,66 @@
+html {
+    --try-bg-color-1: rgb(214, 214, 214);
+}
+
+#my-dropdown-me {
+    left: -100px;
+}
+
+.captaindog-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.my-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.my-footer-nav {
+    background-color: var(--try-bg-color-1);
+}
+
+
+
+.name {
+    color: blue;
+    background-color: yellow;
+}
+.my-circle {
+    width: 100px;
+    height: 100px;
+}
+
+.my-btn {
+    margin-left: 140px;
+    color: blue;
+}
+
+.my-map {
+    filter: grayscale(100%);
+}
+.my-map-feedback {
+    width: 30%;
+    height: 80%;
+    top: 30px;
+    right: 0;
+}
+@media (max-width:768px) {
+    .my-map-feedback {
+        width: 70%;
+        height: 75%;
+        top: 30px;
+        right: 10%;
+    }
+}
+@media (max-width:576px) {
+    .my-map-feedback {
+        width: 60%;
+        height: 83%;
+        top: 50px;
+        right: 10%;
+    }
+}
